@@ -1,0 +1,18 @@
+diff a/application/views/umum/role_view.php b/application/views/umum/role_view.php	(rejected hunks)
+@@ -23,6 +23,16 @@
+   </head>
+   <?php 
+   $ok = $this->session->flashdata('ok');
++  $fail = $this->session->flashdata('fail');
++  
++  $role[] = array(
++	'dir' => null,
++	'link' => 'http://10.10.10.200/cbt',
++	'aplikasi' => 'CBT',
++	'warna' => '#D4A190',
++	'role' => 'Operator CBT'
++  );
++  
+   ?>
+   
+ <body class="login-page" <?php if (!empty($st['main_color'])) echo 'style="background: '.$st['main_color'].'"'; ?>>

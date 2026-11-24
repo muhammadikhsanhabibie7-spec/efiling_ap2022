@@ -1,0 +1,18 @@
+﻿# OS & Editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Temporary captcha images
+cicaptcha/*.jpg
+cicaptcha/*.jpeg
+cicaptcha/*.png
+cicaptcha/*.gif
+
+# Logs & cache
+application/logs/*.php
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
